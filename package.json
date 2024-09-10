@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc && tsc-alias && cp -rv public dist/public",
+    "build": "tsc && cp -rv public dist/public",
     "start": "nodemon src/index.ts",
     "dev": "nodemon src/index.ts",
     "postinstall": "prisma generate"
@@ -20,8 +20,7 @@
     "nodemon": "^3.1.4",
     "prisma": "^5.17.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4",
-    "tsc-alias": "^1.8.10"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "@prisma/client": "^5.17.0",
