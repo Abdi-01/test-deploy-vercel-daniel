@@ -4,6 +4,9 @@
     "module": "commonjs",
     "outDir": "./dist",
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

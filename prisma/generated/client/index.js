@@ -121,7 +121,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/danielreinhard/Documents/JCWD /JOGJA - 0410/backend/adv-topic-12/prisma/generated/client",
+      "value": "/Users/abdialghi/Documents/Purwadhika/test-deploy-vercel-daniel/prisma/generated/client",
       "fromEnvVar": null
     },
     "config": {
@@ -135,12 +135,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/danielreinhard/Documents/JCWD /JOGJA - 0410/backend/adv-topic-12/prisma/schema.prisma",
+    "sourceFilePath": "/Users/abdialghi/Documents/Purwadhika/test-deploy-vercel-daniel/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../..",
   "clientVersion": "5.17.0",
@@ -149,6 +148,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
