@@ -35,7 +35,9 @@ export default class App {
 
   private routes() {
     const sampleRouter = new SampleRouter();
-
+    this.app.get("/", (req, res) => {
+      res.send("awdawdsdasda");
+    });
     this.app.use("/samples", sampleRouter.getRouter());
   }
 
