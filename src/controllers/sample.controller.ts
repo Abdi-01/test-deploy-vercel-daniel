@@ -83,7 +83,7 @@ export class SampleController {
       const html = compiledTemplate({ name: "BUDI" });
 
       await transporter.sendMail({
-        to: "wahabe7659@mvpalace.com",
+        to: "raypubg12345@gmail.com",
         subject: "Welcome to Purwadhika",
         html: html,
       });
