@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
