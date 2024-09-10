@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp -rv public dist/public",
     "start": "nodemon src/index.ts",
     "dev": "nodemon src/index.ts",
     "postinstall": "prisma generate"
